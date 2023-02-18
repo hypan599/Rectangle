@@ -23,8 +23,13 @@ class TopHalfCalculation: WindowCalculation, RepeatedExecutionsInThirdsCalculati
         let visibleFrameOfScreen = params.visibleFrameOfScreen
 
         var rect = visibleFrameOfScreen
+        let originalRect = params.window.rect
+        
         rect.size.height = floor(visibleFrameOfScreen.height * CGFloat(fraction))
+        rect.size.width = originalRect.size.width
         rect.origin.y = visibleFrameOfScreen.maxY - rect.height
+        rect.origin.x = originalRect.minX
+        
         return RectResult(rect)
     }
     
