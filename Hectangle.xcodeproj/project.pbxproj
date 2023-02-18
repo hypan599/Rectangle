@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12D896200936C0DE9FF41FB4 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2445A9C26EB8A12E843FA6F4 /* Pods_HectangleLauncher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B48E931C4B94E9F8AAE140 /* Pods_HectangleLauncher.framework */; };
 		30166BD024F27D6A00A38608 /* SpecifiedCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30166BCF24F27D6A00A38608 /* SpecifiedCalculation.swift */; };
-		3971B303EEC89568E8C18250 /* Pods_RectangleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3C058EC682CF1C4FB71BDE /* Pods_RectangleTests.framework */; };
 		6490B39127BF907A0056C220 /* BottomLeftEighthCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6490B39027BF907A0056C220 /* BottomLeftEighthCalculation.swift */; };
 		6490B39327BF90F90056C220 /* EighthsRepeated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6490B39227BF90F90056C220 /* EighthsRepeated.swift */; };
 		6490B39527BF96880056C220 /* TopLeftEighthCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6490B39427BF96880056C220 /* TopLeftEighthCalculation.swift */; };
@@ -19,6 +18,7 @@
 		6490B39D27BF984D0056C220 /* BottomCenterLeftEighthCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6490B39C27BF984D0056C220 /* BottomCenterLeftEighthCalculation.swift */; };
 		6490B39F27BF98840056C220 /* BottomCenterRightEighthCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6490B39E27BF98840056C220 /* BottomCenterRightEighthCalculation.swift */; };
 		6490B3A127BF98C70056C220 /* BottomRightEighthCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6490B3A027BF98C70056C220 /* BottomRightEighthCalculation.swift */; };
+		79EFA29CDB6C47400E0A3386 /* Pods_HectangleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDB27413F7E88AAA152EE06 /* Pods_HectangleTests.framework */; };
 		866661F2257D248A00A9CD2D /* RepeatedExecutionsInThirdsCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866661F1257D248A00A9CD2D /* RepeatedExecutionsInThirdsCalculation.swift */; };
 		9818E00D28B59205004AA524 /* CompoundSnapArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818E00C28B59205004AA524 /* CompoundSnapArea.swift */; };
 		9818E01028B59396004AA524 /* HalvesCompoundCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818E00F28B59396004AA524 /* HalvesCompoundCalculation.swift */; };
@@ -41,13 +41,13 @@
 		9821403F22B3EBD900ABFB3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821403E22B3EBD900ABFB3F /* AppDelegate.swift */; };
 		9821404322B3EBDA00ABFB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9821404222B3EBDA00ABFB3F /* Assets.xcassets */; };
 		9821404622B3EBDA00ABFB3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9821404422B3EBDA00ABFB3F /* Main.storyboard */; };
-		9821405B22B3ECCA00ABFB3F /* RectangleLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9821403C22B3EBD900ABFB3F /* RectangleLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9821405B22B3ECCA00ABFB3F /* HectangleLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9821403C22B3EBD900ABFB3F /* HectangleLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9821405E22B3ED3600ABFB3F /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9821405D22B3ED3600ABFB3F /* ServiceManagement.framework */; };
 		9821406022B3EFB200ABFB3F /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821405F22B3EFB200ABFB3F /* Defaults.swift */; };
 		9824700D22AF9B7D0037B409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9824700C22AF9B7D0037B409 /* AppDelegate.swift */; };
 		9824701122AF9B7E0037B409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9824701022AF9B7E0037B409 /* Assets.xcassets */; };
 		9824701422AF9B7E0037B409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9824701222AF9B7E0037B409 /* Main.storyboard */; };
-		9824702022AF9B7E0037B409 /* RectangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9824701F22AF9B7E0037B409 /* RectangleTests.swift */; };
+		9824702022AF9B7E0037B409 /* HectangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9824701F22AF9B7E0037B409 /* HectangleTests.swift */; };
 		9824702C22AFA22E0037B409 /* AccessibilityWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9824702A22AFA22E0037B409 /* AccessibilityWindowController.swift */; };
 		9824702F22AFA2E50037B409 /* AccessibilityAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9824702E22AFA2E50037B409 /* AccessibilityAuthorization.swift */; };
 		9824703122AFA8470037B409 /* RectangleStatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9824703022AFA8470037B409 /* RectangleStatusItem.swift */; };
@@ -121,6 +121,7 @@
 		AA4DA2FB28FDC94A00355CEB /* DispatchTimeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DA2FA28FDC94A00355CEB /* DispatchTimeExtension.swift */; };
 		AA536C2729005DD000579AC6 /* TimeoutCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA536C2629005DD000579AC6 /* TimeoutCache.swift */; };
 		AAADE1AF28CBAB0000036331 /* WindowUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADE1AE28CBAB0000036331 /* WindowUtil.swift */; };
+		C52B951396BA899D61E14D50 /* Pods_Hectangle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E029087769A4452ABF3E40 /* Pods_Hectangle.framework */; };
 		D0423D8327A8D31D008A4894 /* HorizontalThirdsRepeated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0423D8227A8D31D008A4894 /* HorizontalThirdsRepeated.swift */; };
 		D04CE3002781794E00BD47B3 /* TopLeftNinthCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04CE2FF2781794E00BD47B3 /* TopLeftNinthCalculation.swift */; };
 		D04CE30227817A6100BD47B3 /* TopCenterNinthCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04CE30127817A6100BD47B3 /* TopCenterNinthCalculation.swift */; };
@@ -136,8 +137,6 @@
 		D0CFE33327A8CCB1004DA47B /* TopRightThirdCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CFE33227A8CCB1004DA47B /* TopRightThirdCalculation.swift */; };
 		D0CFE33527A8CD16004DA47B /* BottomLeftThirdCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CFE33427A8CD16004DA47B /* BottomLeftThirdCalculation.swift */; };
 		D0CFE33727A8CD51004DA47B /* BottomRightThirdCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CFE33627A8CD51004DA47B /* BottomRightThirdCalculation.swift */; };
-		EB965BBE1180A6AA5017E398 /* Pods_RectangleLauncher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5495F68B8151EC7166B0B706 /* Pods_RectangleLauncher.framework */; };
-		F48A0D79BAEFC5483ABB0536 /* Pods_Rectangle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5AB5666F10006E1E6DA630 /* Pods_Rectangle.framework */; };
 		FDE8FCE027C2950400EACCAA /* MultiWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE8FCDF27C2950400EACCAA /* MultiWindowManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -158,21 +157,22 @@
 			dstPath = Contents/Library/LoginItems;
 			dstSubfolderSpec = 1;
 			files = (
-				9821405B22B3ECCA00ABFB3F /* RectangleLauncher.app in CopyFiles */,
+				9821405B22B3ECCA00ABFB3F /* HectangleLauncher.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		19D8D227FC22856CCCBE9162 /* Pods-Rectangle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rectangle.release.xcconfig"; path = "Target Support Files/Pods-Rectangle/Pods-Rectangle.release.xcconfig"; sourceTree = "<group>"; };
-		2624109AE90FE2AD62DBD9E1 /* Pods-Rectangle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rectangle.debug.xcconfig"; path = "Target Support Files/Pods-Rectangle/Pods-Rectangle.debug.xcconfig"; sourceTree = "<group>"; };
 		270BE80127F0B89A00278311 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main.strings; sourceTree = "<group>"; };
 		270BE80227F0B89A00278311 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main.strings; sourceTree = "<group>"; };
 		27CF044927EFDB55001B223C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
 		27CF044A27EFDB55001B223C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
 		30166BCF24F27D6A00A38608 /* SpecifiedCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecifiedCalculation.swift; sourceTree = "<group>"; };
-		5495F68B8151EC7166B0B706 /* Pods_RectangleLauncher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RectangleLauncher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3091B3B08CE5B8C7AA8EB892 /* Pods-Hectangle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hectangle.release.xcconfig"; path = "Target Support Files/Pods-Hectangle/Pods-Hectangle.release.xcconfig"; sourceTree = "<group>"; };
+		34E029087769A4452ABF3E40 /* Pods_Hectangle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hectangle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58251E8BF9672CBC8C93EF03 /* Pods-Hectangle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hectangle.debug.xcconfig"; path = "Target Support Files/Pods-Hectangle/Pods-Hectangle.debug.xcconfig"; sourceTree = "<group>"; };
+		60A62A719C73EAABC2E25082 /* Pods-HectangleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HectangleTests.debug.xcconfig"; path = "Target Support Files/Pods-HectangleTests/Pods-HectangleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6490B39027BF907A0056C220 /* BottomLeftEighthCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLeftEighthCalculation.swift; sourceTree = "<group>"; };
 		6490B39227BF90F90056C220 /* EighthsRepeated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthsRepeated.swift; sourceTree = "<group>"; };
 		6490B39427BF96880056C220 /* TopLeftEighthCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLeftEighthCalculation.swift; sourceTree = "<group>"; };
@@ -182,13 +182,11 @@
 		6490B39C27BF984D0056C220 /* BottomCenterLeftEighthCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCenterLeftEighthCalculation.swift; sourceTree = "<group>"; };
 		6490B39E27BF98840056C220 /* BottomCenterRightEighthCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCenterRightEighthCalculation.swift; sourceTree = "<group>"; };
 		6490B3A027BF98C70056C220 /* BottomRightEighthCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRightEighthCalculation.swift; sourceTree = "<group>"; };
-		6B3C058EC682CF1C4FB71BDE /* Pods_RectangleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RectangleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D5AB5666F10006E1E6DA630 /* Pods_Rectangle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rectangle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B48E931C4B94E9F8AAE140 /* Pods_HectangleLauncher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HectangleLauncher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDB27413F7E88AAA152EE06 /* Pods_HectangleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HectangleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		866661F1257D248A00A9CD2D /* RepeatedExecutionsInThirdsCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedExecutionsInThirdsCalculation.swift; sourceTree = "<group>"; };
-		8D07F211A5A57331CE9CD5FB /* Pods-RectangleLauncher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleLauncher.release.xcconfig"; path = "Target Support Files/Pods-RectangleLauncher/Pods-RectangleLauncher.release.xcconfig"; sourceTree = "<group>"; };
-		91A93E626DBBE79BFE63C1BD /* Pods-RectangleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleTests.debug.xcconfig"; path = "Target Support Files/Pods-RectangleTests/Pods-RectangleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9808018523D05C0B0077774A /* RectangleRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RectangleRelease.entitlements; sourceTree = "<group>"; };
-		9808018623D05C1F0077774A /* RectangleLauncherRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RectangleLauncherRelease.entitlements; sourceTree = "<group>"; };
+		9808018523D05C0B0077774A /* HectangleRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HectangleRelease.entitlements; sourceTree = "<group>"; };
+		9808018623D05C1F0077774A /* HectangleLauncherRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HectangleLauncherRelease.entitlements; sourceTree = "<group>"; };
 		9818E00C28B59205004AA524 /* CompoundSnapArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundSnapArea.swift; sourceTree = "<group>"; };
 		9818E00F28B59396004AA524 /* HalvesCompoundCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalvesCompoundCalculation.swift; sourceTree = "<group>"; };
 		9818E01128B59B64004AA524 /* ThirdsCompoundCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdsCompoundCalculation.swift; sourceTree = "<group>"; };
@@ -209,23 +207,23 @@
 		9821403222B38A1B00ABFB3F /* UpperLeftCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperLeftCalculation.swift; sourceTree = "<group>"; };
 		9821403422B38A2B00ABFB3F /* UpperRightCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperRightCalculation.swift; sourceTree = "<group>"; };
 		9821403622B3D16700ABFB3F /* MaximizeHeightCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximizeHeightCalculation.swift; sourceTree = "<group>"; };
-		9821403C22B3EBD900ABFB3F /* RectangleLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectangleLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821403C22B3EBD900ABFB3F /* HectangleLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HectangleLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9821403E22B3EBD900ABFB3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9821404222B3EBDA00ABFB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9821404522B3EBDA00ABFB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9821404722B3EBDA00ABFB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9821404822B3EBDA00ABFB3F /* RectangleLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RectangleLauncher.entitlements; sourceTree = "<group>"; };
+		9821404822B3EBDA00ABFB3F /* HectangleLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HectangleLauncher.entitlements; sourceTree = "<group>"; };
 		9821405D22B3ED3600ABFB3F /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		9821405F22B3EFB200ABFB3F /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
-		9821552627BFFB13002523EC /* Rectangle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rectangle-Bridging-Header.h"; sourceTree = "<group>"; };
-		9824700922AF9B7D0037B409 /* Rectangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rectangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821552627BFFB13002523EC /* Hectangle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hectangle-Bridging-Header.h"; sourceTree = "<group>"; };
+		9824700922AF9B7D0037B409 /* Hectangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hectangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9824700C22AF9B7D0037B409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9824701022AF9B7E0037B409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9824701322AF9B7E0037B409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9824701522AF9B7E0037B409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9824701622AF9B7E0037B409 /* Rectangle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rectangle.entitlements; sourceTree = "<group>"; };
-		9824701B22AF9B7E0037B409 /* RectangleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectangleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9824701F22AF9B7E0037B409 /* RectangleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleTests.swift; sourceTree = "<group>"; };
+		9824701622AF9B7E0037B409 /* Hectangle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hectangle.entitlements; sourceTree = "<group>"; };
+		9824701B22AF9B7E0037B409 /* HectangleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HectangleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9824701F22AF9B7E0037B409 /* HectangleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HectangleTests.swift; sourceTree = "<group>"; };
 		9824702122AF9B7E0037B409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9824702A22AFA22E0037B409 /* AccessibilityWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityWindowController.swift; sourceTree = "<group>"; };
 		9824702E22AFA2E50037B409 /* AccessibilityAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityAuthorization.swift; sourceTree = "<group>"; };
@@ -260,7 +258,7 @@
 		988D067E22EB4EDE004EABD7 /* MoveLeftRightCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveLeftRightCalculation.swift; sourceTree = "<group>"; };
 		988D068222EB4EF3004EABD7 /* MoveUpDownCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveUpDownCalculation.swift; sourceTree = "<group>"; };
 		98910B3D231130AF0066EC23 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		98910B41231476B30066EC23 /* PrefsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrefsViewController.swift; path = Rectangle/PrefsViewController.swift; sourceTree = SOURCE_ROOT; };
+		98910B41231476B30066EC23 /* PrefsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrefsViewController.swift; path = Hectangle/PrefsViewController.swift; sourceTree = SOURCE_ROOT; };
 		98910B5B231CF9520066EC23 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		98910B5C231CF9520066EC23 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		98910B5D231D164A0066EC23 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
@@ -327,7 +325,6 @@
 		98FD7C602687BCB6009E9DAF /* LastThreeFourthsCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastThreeFourthsCalculation.swift; sourceTree = "<group>"; };
 		98FE8976246E79C400871535 /* zh-Hant-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-HK"; path = "zh-Hant-HK.lproj/Main.strings"; sourceTree = "<group>"; };
 		98FE8977246E79C400871535 /* zh-Hant-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-HK"; path = "zh-Hant-HK.lproj/Main.strings"; sourceTree = "<group>"; };
-		995E197781350521ECD6E456 /* Pods-RectangleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleTests.release.xcconfig"; path = "Target Support Files/Pods-RectangleTests/Pods-RectangleTests.release.xcconfig"; sourceTree = "<group>"; };
 		AA040C66290B2640003181D5 /* RunLoopThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLoopThread.swift; sourceTree = "<group>"; };
 		AA0ABFFF291C1B5E00D125D2 /* CGExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGExtension.swift; sourceTree = "<group>"; };
 		AA0AC001291C1B9100D125D2 /* AXExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AXExtension.swift; sourceTree = "<group>"; };
@@ -337,6 +334,7 @@
 		AA4DA2FA28FDC94A00355CEB /* DispatchTimeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimeExtension.swift; sourceTree = "<group>"; };
 		AA536C2629005DD000579AC6 /* TimeoutCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeoutCache.swift; sourceTree = "<group>"; };
 		AAADE1AE28CBAB0000036331 /* WindowUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowUtil.swift; sourceTree = "<group>"; };
+		AC9C61BD090CC9E7CD691FCF /* Pods-HectangleLauncher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HectangleLauncher.release.xcconfig"; path = "Target Support Files/Pods-HectangleLauncher/Pods-HectangleLauncher.release.xcconfig"; sourceTree = "<group>"; };
 		D0423D8227A8D31D008A4894 /* HorizontalThirdsRepeated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalThirdsRepeated.swift; sourceTree = "<group>"; };
 		D04CE2FF2781794E00BD47B3 /* TopLeftNinthCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLeftNinthCalculation.swift; sourceTree = "<group>"; };
 		D04CE30127817A6100BD47B3 /* TopCenterNinthCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCenterNinthCalculation.swift; sourceTree = "<group>"; };
@@ -352,11 +350,12 @@
 		D0CFE33227A8CCB1004DA47B /* TopRightThirdCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRightThirdCalculation.swift; sourceTree = "<group>"; };
 		D0CFE33427A8CD16004DA47B /* BottomLeftThirdCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLeftThirdCalculation.swift; sourceTree = "<group>"; };
 		D0CFE33627A8CD51004DA47B /* BottomRightThirdCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRightThirdCalculation.swift; sourceTree = "<group>"; };
-		D815A6B3A9376D8CCBF58D81 /* Pods-RectangleLauncher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleLauncher.debug.xcconfig"; path = "Target Support Files/Pods-RectangleLauncher/Pods-RectangleLauncher.debug.xcconfig"; sourceTree = "<group>"; };
 		DCEA6A1528DB717C0051C12D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
 		DCEA6A1628DB717C0051C12D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
 		E8C299E927B5238100BC90C3 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Main.strings; sourceTree = "<group>"; };
 		E8C299EA27B5238100BC90C3 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Main.strings; sourceTree = "<group>"; };
+		EBA4E712900A24C9A987ED5C /* Pods-HectangleLauncher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HectangleLauncher.debug.xcconfig"; path = "Target Support Files/Pods-HectangleLauncher/Pods-HectangleLauncher.debug.xcconfig"; sourceTree = "<group>"; };
+		F8AE36745586938A6BE5C8CC /* Pods-HectangleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HectangleTests.release.xcconfig"; path = "Target Support Files/Pods-HectangleTests/Pods-HectangleTests.release.xcconfig"; sourceTree = "<group>"; };
 		FDE8FCDF27C2950400EACCAA /* MultiWindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiWindowManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -365,7 +364,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB965BBE1180A6AA5017E398 /* Pods_RectangleLauncher.framework in Frameworks */,
+				2445A9C26EB8A12E843FA6F4 /* Pods_HectangleLauncher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,8 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9821405E22B3ED3600ABFB3F /* ServiceManagement.framework in Frameworks */,
-				12D896200936C0DE9FF41FB4 /* (null) in Frameworks */,
-				F48A0D79BAEFC5483ABB0536 /* Pods_Rectangle.framework in Frameworks */,
+				C52B951396BA899D61E14D50 /* Pods_Hectangle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +381,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3971B303EEC89568E8C18250 /* Pods_RectangleTests.framework in Frameworks */,
+				79EFA29CDB6C47400E0A3386 /* Pods_HectangleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,12 +391,12 @@
 		67F292BA10681FCA82000D3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2624109AE90FE2AD62DBD9E1 /* Pods-Rectangle.debug.xcconfig */,
-				19D8D227FC22856CCCBE9162 /* Pods-Rectangle.release.xcconfig */,
-				D815A6B3A9376D8CCBF58D81 /* Pods-RectangleLauncher.debug.xcconfig */,
-				8D07F211A5A57331CE9CD5FB /* Pods-RectangleLauncher.release.xcconfig */,
-				91A93E626DBBE79BFE63C1BD /* Pods-RectangleTests.debug.xcconfig */,
-				995E197781350521ECD6E456 /* Pods-RectangleTests.release.xcconfig */,
+				58251E8BF9672CBC8C93EF03 /* Pods-Hectangle.debug.xcconfig */,
+				3091B3B08CE5B8C7AA8EB892 /* Pods-Hectangle.release.xcconfig */,
+				EBA4E712900A24C9A987ED5C /* Pods-HectangleLauncher.debug.xcconfig */,
+				AC9C61BD090CC9E7CD691FCF /* Pods-HectangleLauncher.release.xcconfig */,
+				60A62A719C73EAABC2E25082 /* Pods-HectangleTests.debug.xcconfig */,
+				F8AE36745586938A6BE5C8CC /* Pods-HectangleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -424,26 +422,26 @@
 			path = MultiWindow;
 			sourceTree = "<group>";
 		};
-		9821403D22B3EBD900ABFB3F /* RectangleLauncher */ = {
+		9821403D22B3EBD900ABFB3F /* HectangleLauncher */ = {
 			isa = PBXGroup;
 			children = (
-				9808018623D05C1F0077774A /* RectangleLauncherRelease.entitlements */,
+				9808018623D05C1F0077774A /* HectangleLauncherRelease.entitlements */,
 				9821403E22B3EBD900ABFB3F /* AppDelegate.swift */,
 				9821404222B3EBDA00ABFB3F /* Assets.xcassets */,
 				9821404422B3EBDA00ABFB3F /* Main.storyboard */,
 				9821404722B3EBDA00ABFB3F /* Info.plist */,
-				9821404822B3EBDA00ABFB3F /* RectangleLauncher.entitlements */,
+				9821404822B3EBDA00ABFB3F /* HectangleLauncher.entitlements */,
 			);
-			path = RectangleLauncher;
+			path = HectangleLauncher;
 			sourceTree = "<group>";
 		};
 		9821405C22B3ED3600ABFB3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				9821405D22B3ED3600ABFB3F /* ServiceManagement.framework */,
-				7D5AB5666F10006E1E6DA630 /* Pods_Rectangle.framework */,
-				5495F68B8151EC7166B0B706 /* Pods_RectangleLauncher.framework */,
-				6B3C058EC682CF1C4FB71BDE /* Pods_RectangleTests.framework */,
+				34E029087769A4452ABF3E40 /* Pods_Hectangle.framework */,
+				68B48E931C4B94E9F8AAE140 /* Pods_HectangleLauncher.framework */,
+				7BDB27413F7E88AAA152EE06 /* Pods_HectangleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -565,9 +563,9 @@
 		9824700022AF9B7D0037B409 = {
 			isa = PBXGroup;
 			children = (
-				9824700B22AF9B7D0037B409 /* Rectangle */,
-				9824701E22AF9B7E0037B409 /* RectangleTests */,
-				9821403D22B3EBD900ABFB3F /* RectangleLauncher */,
+				9824700B22AF9B7D0037B409 /* Hectangle */,
+				9824701E22AF9B7E0037B409 /* HectangleTests */,
+				9821403D22B3EBD900ABFB3F /* HectangleLauncher */,
 				9824700A22AF9B7D0037B409 /* Products */,
 				9821405C22B3ED3600ABFB3F /* Frameworks */,
 				67F292BA10681FCA82000D3E /* Pods */,
@@ -577,14 +575,14 @@
 		9824700A22AF9B7D0037B409 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9824700922AF9B7D0037B409 /* Rectangle.app */,
-				9824701B22AF9B7E0037B409 /* RectangleTests.xctest */,
-				9821403C22B3EBD900ABFB3F /* RectangleLauncher.app */,
+				9824700922AF9B7D0037B409 /* Hectangle.app */,
+				9824701B22AF9B7E0037B409 /* HectangleTests.xctest */,
+				9821403C22B3EBD900ABFB3F /* HectangleLauncher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9824700B22AF9B7D0037B409 /* Rectangle */ = {
+		9824700B22AF9B7D0037B409 /* Hectangle */ = {
 			isa = PBXGroup;
 			children = (
 				9824700C22AF9B7D0037B409 /* AppDelegate.swift */,
@@ -592,9 +590,9 @@
 				9824701222AF9B7E0037B409 /* Main.storyboard */,
 				9824701522AF9B7E0037B409 /* Info.plist */,
 				981F27D02340E3E1006CD263 /* InternetAccessPolicy.plist */,
-				9821552627BFFB13002523EC /* Rectangle-Bridging-Header.h */,
-				9808018523D05C0B0077774A /* RectangleRelease.entitlements */,
-				9824701622AF9B7E0037B409 /* Rectangle.entitlements */,
+				9821552627BFFB13002523EC /* Hectangle-Bridging-Header.h */,
+				9808018523D05C0B0077774A /* HectangleRelease.entitlements */,
+				9824701622AF9B7E0037B409 /* Hectangle.entitlements */,
 				9821405F22B3EFB200ABFB3F /* Defaults.swift */,
 				98C1008B2305F1FA006E5344 /* SubsequentExecutionMode.swift */,
 				985B9BF422B93EEC00A2E8F0 /* ApplicationToggle.swift */,
@@ -618,16 +616,16 @@
 				982140EB22B7DB1A00ABFB3F /* AccessibilityAuthorization */,
 				982140EC22B7DB5700ABFB3F /* Utilities */,
 			);
-			path = Rectangle;
+			path = Hectangle;
 			sourceTree = "<group>";
 		};
-		9824701E22AF9B7E0037B409 /* RectangleTests */ = {
+		9824701E22AF9B7E0037B409 /* HectangleTests */ = {
 			isa = PBXGroup;
 			children = (
-				9824701F22AF9B7E0037B409 /* RectangleTests.swift */,
+				9824701F22AF9B7E0037B409 /* HectangleTests.swift */,
 				9824702122AF9B7E0037B409 /* Info.plist */,
 			);
-			path = RectangleTests;
+			path = HectangleTests;
 			sourceTree = "<group>";
 		};
 		985B9BFA22BE218C00A2E8F0 /* Popover */ = {
@@ -690,9 +688,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9821403B22B3EBD900ABFB3F /* RectangleLauncher */ = {
+		9821403B22B3EBD900ABFB3F /* HectangleLauncher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9821405422B3EBDA00ABFB3F /* Build configuration list for PBXNativeTarget "RectangleLauncher" */;
+			buildConfigurationList = 9821405422B3EBDA00ABFB3F /* Build configuration list for PBXNativeTarget "HectangleLauncher" */;
 			buildPhases = (
 				8CF8D69D7EE769B0D1A40F9C /* [CP] Check Pods Manifest.lock */,
 				9821403822B3EBD900ABFB3F /* Sources */,
@@ -703,14 +701,14 @@
 			);
 			dependencies = (
 			);
-			name = RectangleLauncher;
+			name = HectangleLauncher;
 			productName = RectangleLauncher;
-			productReference = 9821403C22B3EBD900ABFB3F /* RectangleLauncher.app */;
+			productReference = 9821403C22B3EBD900ABFB3F /* HectangleLauncher.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9824700822AF9B7D0037B409 /* Rectangle */ = {
+		9824700822AF9B7D0037B409 /* Hectangle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9824702422AF9B7E0037B409 /* Build configuration list for PBXNativeTarget "Rectangle" */;
+			buildConfigurationList = 9824702422AF9B7E0037B409 /* Build configuration list for PBXNativeTarget "Hectangle" */;
 			buildPhases = (
 				2C3F72B895EDE8FBC8831ED3 /* [CP] Check Pods Manifest.lock */,
 				9824700522AF9B7D0037B409 /* Sources */,
@@ -723,14 +721,14 @@
 			);
 			dependencies = (
 			);
-			name = Rectangle;
+			name = Hectangle;
 			productName = Rectangle;
-			productReference = 9824700922AF9B7D0037B409 /* Rectangle.app */;
+			productReference = 9824700922AF9B7D0037B409 /* Hectangle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9824701A22AF9B7E0037B409 /* RectangleTests */ = {
+		9824701A22AF9B7E0037B409 /* HectangleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9824702722AF9B7E0037B409 /* Build configuration list for PBXNativeTarget "RectangleTests" */;
+			buildConfigurationList = 9824702722AF9B7E0037B409 /* Build configuration list for PBXNativeTarget "HectangleTests" */;
 			buildPhases = (
 				B3C4A6FEE8F65CE59D2A103F /* [CP] Check Pods Manifest.lock */,
 				9824701722AF9B7E0037B409 /* Sources */,
@@ -742,9 +740,9 @@
 			dependencies = (
 				9824701D22AF9B7E0037B409 /* PBXTargetDependency */,
 			);
-			name = RectangleTests;
+			name = HectangleTests;
 			productName = RectangleTests;
-			productReference = 9824701B22AF9B7E0037B409 /* RectangleTests.xctest */;
+			productReference = 9824701B22AF9B7E0037B409 /* HectangleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -755,7 +753,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1420;
-				ORGANIZATIONNAME = "Ryan Hanson";
+				ORGANIZATIONNAME = "Hanying Pan";
 				TargetAttributes = {
 					9821403B22B3EBD900ABFB3F = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -786,7 +784,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9824700422AF9B7D0037B409 /* Build configuration list for PBXProject "Rectangle" */;
+			buildConfigurationList = 9824700422AF9B7D0037B409 /* Build configuration list for PBXProject "Hectangle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -822,9 +820,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9824700822AF9B7D0037B409 /* Rectangle */,
-				9824701A22AF9B7E0037B409 /* RectangleTests */,
-				9821403B22B3EBD900ABFB3F /* RectangleLauncher */,
+				9824700822AF9B7D0037B409 /* Hectangle */,
+				9824701A22AF9B7E0037B409 /* HectangleTests */,
+				9821403B22B3EBD900ABFB3F /* HectangleLauncher */,
 			);
 		};
 /* End PBXProject section */
@@ -876,7 +874,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rectangle-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Hectangle-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -898,7 +896,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RectangleLauncher-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HectangleLauncher-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -911,15 +909,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Rectangle/Pods-Rectangle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Hectangle/Pods-Hectangle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Rectangle/Pods-Rectangle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Hectangle/Pods-Hectangle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rectangle/Pods-Rectangle-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hectangle/Pods-Hectangle-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B3C4A6FEE8F65CE59D2A103F /* [CP] Check Pods Manifest.lock */ = {
@@ -937,7 +935,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RectangleTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HectangleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1083,7 +1081,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9824702022AF9B7E0037B409 /* RectangleTests.swift in Sources */,
+				9824702022AF9B7E0037B409 /* HectangleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1092,7 +1090,7 @@
 /* Begin PBXTargetDependency section */
 		9824701D22AF9B7E0037B409 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9824700822AF9B7D0037B409 /* Rectangle */;
+			target = 9824700822AF9B7D0037B409 /* Hectangle */;
 			targetProxy = 9824701C22AF9B7E0037B409 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1165,23 +1163,23 @@
 /* Begin XCBuildConfiguration section */
 		9821405522B3EBDA00ABFB3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D815A6B3A9376D8CCBF58D81 /* Pods-RectangleLauncher.debug.xcconfig */;
+			baseConfigurationReference = EBA4E712900A24C9A987ED5C /* Pods-HectangleLauncher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = RectangleLauncher/RectangleLauncher.entitlements;
+				CODE_SIGN_ENTITLEMENTS = HectangleLauncher/HectangleLauncher.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = NO;
-				INFOPLIST_FILE = RectangleLauncher/Info.plist;
+				INFOPLIST_FILE = HectangleLauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.RectangleLauncher;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				PRODUCT_BUNDLE_IDENTIFIER = top.xpandi.HectangleLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1191,23 +1189,23 @@
 		};
 		9821405622B3EBDA00ABFB3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D07F211A5A57331CE9CD5FB /* Pods-RectangleLauncher.release.xcconfig */;
+			baseConfigurationReference = AC9C61BD090CC9E7CD691FCF /* Pods-HectangleLauncher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = RectangleLauncher/RectangleLauncherRelease.entitlements;
+				CODE_SIGN_ENTITLEMENTS = HectangleLauncher/HectangleLauncherRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = XSYZ3E4B7D;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = RectangleLauncher/Info.plist;
+				INFOPLIST_FILE = HectangleLauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.RectangleLauncher;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				PRODUCT_BUNDLE_IDENTIFIER = top.xpandi.HectangleLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1338,11 +1336,11 @@
 		};
 		9824702522AF9B7E0037B409 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2624109AE90FE2AD62DBD9E1 /* Pods-Rectangle.debug.xcconfig */;
+			baseConfigurationReference = 58251E8BF9672CBC8C93EF03 /* Pods-Hectangle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Rectangle/Rectangle.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Hectangle/Hectangle.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1350,17 +1348,17 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = NO;
-				INFOPLIST_FILE = Rectangle/Info.plist;
+				INFOPLIST_FILE = Hectangle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 0.65;
-				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.Rectangle;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.xpandi.Hectangle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Rectangle/Rectangle-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hectangle/Hectangle-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1368,11 +1366,11 @@
 		};
 		9824702622AF9B7E0037B409 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19D8D227FC22856CCCBE9162 /* Pods-Rectangle.release.xcconfig */;
+			baseConfigurationReference = 3091B3B08CE5B8C7AA8EB892 /* Pods-Hectangle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Rectangle/RectangleRelease.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Hectangle/HectangleRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1380,24 +1378,24 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = XSYZ3E4B7D;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = Rectangle/Info.plist;
+				INFOPLIST_FILE = Hectangle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 0.65;
-				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.Rectangle;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.xpandi.Hectangle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Rectangle/Rectangle-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hectangle/Hectangle-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		9824702822AF9B7E0037B409 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91A93E626DBBE79BFE63C1BD /* Pods-RectangleTests.debug.xcconfig */;
+			baseConfigurationReference = 60A62A719C73EAABC2E25082 /* Pods-HectangleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1406,24 +1404,24 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RectangleTests/Info.plist;
+				INFOPLIST_FILE = HectangleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ryanhanson.RectangleTests;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				PRODUCT_BUNDLE_IDENTIFIER = top.xpandi.HectangleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rectangle.app/Contents/MacOS/Rectangle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hectangle.app/Contents/MacOS/Hectangle";
 			};
 			name = Debug;
 		};
 		9824702922AF9B7E0037B409 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 995E197781350521ECD6E456 /* Pods-RectangleTests.release.xcconfig */;
+			baseConfigurationReference = F8AE36745586938A6BE5C8CC /* Pods-HectangleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1432,25 +1430,25 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = XSYZ3E4B7D;
-				INFOPLIST_FILE = RectangleTests/Info.plist;
+				INFOPLIST_FILE = HectangleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ryanhanson.RectangleTests;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				PRODUCT_BUNDLE_IDENTIFIER = top.xpandi.HectangleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rectangle.app/Contents/MacOS/Rectangle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hectangle.app/Contents/MacOS/Hectangle";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9821405422B3EBDA00ABFB3F /* Build configuration list for PBXNativeTarget "RectangleLauncher" */ = {
+		9821405422B3EBDA00ABFB3F /* Build configuration list for PBXNativeTarget "HectangleLauncher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9821405522B3EBDA00ABFB3F /* Debug */,
@@ -1459,7 +1457,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9824700422AF9B7D0037B409 /* Build configuration list for PBXProject "Rectangle" */ = {
+		9824700422AF9B7D0037B409 /* Build configuration list for PBXProject "Hectangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9824702222AF9B7E0037B409 /* Debug */,
@@ -1468,7 +1466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9824702422AF9B7E0037B409 /* Build configuration list for PBXNativeTarget "Rectangle" */ = {
+		9824702422AF9B7E0037B409 /* Build configuration list for PBXNativeTarget "Hectangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9824702522AF9B7E0037B409 /* Debug */,
@@ -1477,7 +1475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9824702722AF9B7E0037B409 /* Build configuration list for PBXNativeTarget "RectangleTests" */ = {
+		9824702722AF9B7E0037B409 /* Build configuration list for PBXNativeTarget "HectangleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9824702822AF9B7E0037B409 /* Debug */,

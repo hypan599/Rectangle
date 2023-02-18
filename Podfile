@@ -3,7 +3,7 @@ platform :osx, '10.13'
 
 inhibit_all_warnings!
 
-target 'Rectangle' do
+target 'Hectangle' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
@@ -11,14 +11,14 @@ target 'Rectangle' do
   pod 'MASShortcut'
   pod 'Sparkle'
   
-  target 'RectangleTests' do
+  target 'HectangleTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
 end
 
-target 'RectangleLauncher' do
+target 'HectangleLauncher' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
