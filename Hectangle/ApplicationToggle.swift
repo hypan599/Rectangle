@@ -11,8 +11,8 @@ import Cocoa
 class ApplicationToggle: NSObject {
     
     private var disabledApps = Set<String>()
-    public private(set) var frontAppId: String? = "com.knollsoft.Rectangle"
-    public private(set) var frontAppName: String? = "Rectangle"
+    public private(set) var frontAppId: String? = "top.xpandi.Rectangle"
+    public private(set) var frontAppName: String? = "Hectangle"
     public private(set) var shortcutsDisabled: Bool = false
 
     private let shortcutManager: ShortcutManager
